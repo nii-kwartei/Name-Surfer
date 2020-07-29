@@ -53,6 +53,5 @@ The next step in the process is to implement the NameSurferDataBase class, which
 A constructor that takes the name of a data file and uses that to read in the entire set of data from the file into internal data structures that allow the class to keep track of all the records as a database.
 A findEntry method that takes a name, looks it up in the stored database, and returns the NameSurferEntry for that name, or null if that name does not appear.
 The code for this part of the assignment is not particularly difficult. The challenging part lies in figuring out how you want to represent the data so that you can implement the findEntry method as simply and as efficiently as possible.
-To test this part of the program, you can add a line of code or two to the NameSurfer program so that it creates the NameSurferDataBase and then change the code for the button handlers so that clicking the ―Graph‖ button looks up the current name in the data base and then displays the corresponding entry (using its toString method), as shown in Figure 4 below.
-.
+To test this part of the program, you can add a line of code or two to the NameSurfer program so that it creates the NameSurferDataBase and then change the code for the button handlers so that clicking the ―Graph‖ button looks up the current name in the data base and then displays the corresponding entry (using its toString method).
  
